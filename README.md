@@ -2,7 +2,8 @@
 
 For now, only Funcard experiments.
 
-# Projects for old Funcard (smartcard with atmel at90s8515)
+# Projects for old Funcard 
+# (smartcard with atmel at90s8515)
 
 These programs are distributed in the hope that it will be useful,
 
