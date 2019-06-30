@@ -45,9 +45,9 @@ You can also put 2 led's on 1 port. (one led active high and  one led active low
 
 scematic connecting the led :
 
-(pb6) --|>|-- (+) vcc (led active high)
+(pb6) --|<|-- (+) vcc (led active low)
 
-(pb6) --|>|-- (-) gnd (led active low)
+(pb6) --|>|-- (-) gnd (led active high)
 
 Clock schematic : 
 
