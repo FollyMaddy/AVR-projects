@@ -23,9 +23,11 @@ Install to built the programs :
 
 sudo apt-get install binutils gcc-avr avr-libc
 
+How i have done it :
+
 Made a c textfile in /home/pi/Documents/gcc-avr-projects/ledblink_funcard_pb6.c
 
-Then compiled it with (Don't know what all the options meat, yet. But it works) :
+Then compiled it with (Don't know what all the options mean, yet. But it works) :
 
 (c->bin->hex)
 
@@ -35,15 +37,15 @@ pi@raspberrypi:~ $ avr-objcopy -j .text -j .data -O ihex /home/pi/Documents/gcc-
 
 Led's or Buzzers can be commected directly to the smartcard if around 3.3 - 4 Volt is applied.
 
-If you wat to do it safe then use a pull-up or a pull-down resistor !!!
+If you want to do it safe then use a pull-up or a pull-down resistor !!!
 
 Led's or Buzzers can be connected active-high or active-low.
 
-If led's are connected low the burn brighter.
+If led's are connected low they burn brighter.
 
 You can also put 2 led's on 1 port. (one led active high and  one led active low)
 
-scematic connecting the led :
+schematic connecting the led :
 
 (pb6) --|<|-- (+) vcc (led active low)
 
